@@ -179,17 +179,20 @@
         <div class="footer-text">&copy; 2024 <a href="https://karungnews.github.io/legend/Menjelajahi-Lautan-dengan-Shark-Bounty-Cara-Cerdas-Mendapatkan-Hadiah-Besar.html">Ane Sui News</a>. All Rights Reserved. 18+</div>
     </div>
 </footer>
-<amp-analytics type="gtag" data-credentials="include"></amp-analytics>
-    <script type="application/json">
-      {
-        "vars": {
-          "gtag_id": "G-5JJJRK5VLZ",
-          "config": {
-            "G-5JJJRK5VLZ": { "groups": "default" }
-          }
-        }
-      }
-    </script>
-  </amp-analytics>
+<amp-analytics type="googleanalytics">
+            <script type="application/json">
+                {
+                    "vars": {
+                        "account": "UA-XXXXX-Y"
+                    },
+                    "triggers": {
+                        "trackPageview": {
+                            "on": "visible",
+                            "request": "pageview"
+                        }
+                    }
+                }
+            </script>
+        </amp-analytics>
 </body>
 </html>
